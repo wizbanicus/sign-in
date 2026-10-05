@@ -1,7 +1,7 @@
   <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
         <div id="navbar">
-			<a class="navbar-brand pull-left" href="#"><small>Clubhouse sign in - admin</small></a>
+			<a class="navbar-brand pull-left" href="#"><small>Sign In - admin</small></a>
           <span style="color:white;" class="pull-right">
 	          <?php  if(isset($_SESSION['user']) && $_SESSION['user']) { echo 'hi ' . $_SESSION['user'] . 
               '  ' . '<a href="do_logout.php"><span class="glyphicon glyphicon-log-out"> </span></a>';}
